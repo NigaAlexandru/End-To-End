@@ -1,0 +1,115 @@
+﻿2019-04-10T12:11:59.7033813+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-04-10T12:11:59.7033813+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.255 in Framework clr40 in x86 mode execution started
+2019-04-10T12:11:59.7033813+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-10T12:11:59.8473012+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-10T12:11:59.8473012+03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\niga3\source\repos\End-To-End-Testing\TestResults" (default)
+2019-04-10T12:11:59.8473012+03:00;VSTestExecutionThread;Info;Profile: Tests
+2019-04-10T12:11:59.8742834+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\niga3\source\repos\End-To-End-Testing\TestResults\Tests_Tests_2019-04-10T121159.log
+2019-04-10T12:11:59.8822791+03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-10T12:11:59.8892749+03:00;Thread#13;Info;Checking license
+2019-04-10T12:11:59.9042660+03:00;Thread#13;Info;Evaluation mode: test execution starts in 14 seconds... (this delay is removed in the registered version)
+2019-04-10T12:12:13.9052229+03:00;Thread#13;Info;Evaluation delay finished.
+2019-04-10T12:12:13.9162406+03:00;Thread#13;Info;License check completed
+2019-04-10T12:12:13.9162406+03:00;Thread#13;Info;starting test run
+2019-04-10T12:12:13.9322150+03:00;Thread#13;Info;Discovering target: Default
+2019-04-10T12:12:13.9322150+03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-10T12:12:14.3299815+03:00:Appdomain Disposed
+2019-04-10T12:12:14.3309846+03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-10T12:12:14.3319822+03:00:Test Suite Dump
+2019-04-10T12:12:14.3329822+03:00:#0: Tests/Tests - 
+2019-04-10T12:12:14.3329822+03:00:#1: Default - 
+2019-04-10T12:12:14.3329822+03:00:#2: Tests - 
+2019-04-10T12:12:14.3329822+03:00:#3: LoginFlows - 
+2019-04-10T12:12:14.3739596+03:00:#4: Error message received on incorrect login - TestAssembly:Tests/Feature:LoginFlows/Scenario:Error+message+received+on+incorrect+login
+2019-04-10T12:12:14.3739596+03:00:End: Test Suite Dump
+2019-04-10T12:12:14.4009411+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T12:12:14.4029394+03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-04-10T12:12:14.4029394+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-04-10T12:12:14.4079371+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T12:12:14.4079371+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-04-10T12:12:14.4079371+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-04-10T12:12:14.4079371+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-04-10T12:12:14.4099392+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-04-10T12:12:14.4119379+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-04-10T12:12:14.4149513+03:00:Thread #0: creating new test thread executor for Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-04-10T12:12:14.4159568+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-10T12:12:14.4169579+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-10T12:12:14.4169579+03:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-04-10T12:12:14.4838961+03:00:Thread#0: Test #4/0 is started on thread #0
+2019-04-10T12:12:14.6617939+03:00:Thread#0:T:-> Loading plugin C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-04-10T12:12:14.6678146+03:00:Thread#0:T:-> Using default config
+2019-04-10T12:12:14.7367482+03:00:Thread#0:B:Given The user accessed the login page
+2019-04-10T12:12:14.9673571+03:00:Thread#0:T:error: Exception has been thrown by the target of an invocation.
+2019-04-10T12:12:14.9693561+03:00:Thread#0:B:When the user enters wrong credentials
+2019-04-10T12:12:14.9693561+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T12:12:14.9693561+03:00:Thread#0:B:Then An error message is displayed
+2019-04-10T12:12:14.9703558+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T12:12:14.9893443+03:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2019-04-10T12:12:14.9893443+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T12:12:14.9893443+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-04-10T12:12:14.9893443+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-04-10T12:12:14.9893443+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T12:12:14.9893443+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-04-10T12:12:14.9893443+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-04-10T12:12:14.9893443+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-04-10T12:12:14.9893443+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-04-10T12:12:14.9893443+03:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-04-10T12:12:14.9963403+03:00:Thread#0:T:The IEDriverServer.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://selenium-release.storage.googleapis.com/index.html.
+2019-04-10T12:12:15.0093335+03:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 0.5244377 seconds
+2019-04-10T12:12:15.0143305+03:00:Thread#0: Test #4/1 is started on thread #0
+2019-04-10T12:12:15.0143305+03:00:Thread#0:T:warning: The previous ScenarioContext was not disposed.
+2019-04-10T12:12:15.0183282+03:00:Thread#0:B:Given The user accessed the login page
+2019-04-10T12:12:15.0203269+03:00:Thread#0:T:error: Exception has been thrown by the target of an invocation.
+2019-04-10T12:12:15.0213266+03:00:Thread#0:B:When the user enters wrong credentials
+2019-04-10T12:12:15.0213266+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T12:12:15.0213266+03:00:Thread#0:B:Then An error message is displayed
+2019-04-10T12:12:15.0213266+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T12:12:15.0233256+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T12:12:15.0233256+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-04-10T12:12:15.0233256+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-04-10T12:12:15.0233256+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T12:12:15.0233256+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-04-10T12:12:15.0233256+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-04-10T12:12:15.0233256+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-04-10T12:12:15.0233256+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-04-10T12:12:15.0233256+03:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-04-10T12:12:15.0243287+03:00:Thread#0:T:The IEDriverServer.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://selenium-release.storage.googleapis.com/index.html.
+2019-04-10T12:12:15.0263239+03:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.0119934 seconds
+2019-04-10T12:12:15.0273236+03:00:Thread#0: Test #4/2 is started on thread #0
+2019-04-10T12:12:15.0273236+03:00:Thread#0:T:warning: The previous ScenarioContext was not disposed.
+2019-04-10T12:12:15.0273236+03:00:Thread#0:B:Given The user accessed the login page
+2019-04-10T12:12:15.0303233+03:00:Thread#0:T:error: Exception has been thrown by the target of an invocation.
+2019-04-10T12:12:15.0303233+03:00:Thread#0:B:When the user enters wrong credentials
+2019-04-10T12:12:15.0303233+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T12:12:15.0303233+03:00:Thread#0:B:Then An error message is displayed
+2019-04-10T12:12:15.0313227+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T12:12:15.0313227+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T12:12:15.0313227+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-04-10T12:12:15.0313227+03:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-04-10T12:12:15.0313227+03:00:Thread#0:Scheduler: No more tests for thread
+2019-04-10T12:12:15.0323224+03:00:Thread#0:T:The IEDriverServer.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://selenium-release.storage.googleapis.com/index.html.
+2019-04-10T12:12:15.0363201+03:00:Thread#0:T:The IEDriverServer.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://selenium-release.storage.googleapis.com/index.html.
+2019-04-10T12:12:15.0393184+03:00:Thread#0:T:The IEDriverServer.exe file does not exist in the current directory or in a directory on the PATH environment variable. The driver can be downloaded at http://selenium-release.storage.googleapis.com/index.html.
+2019-04-10T12:12:15.0413171+03:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.0139935 seconds
+2019-04-10T12:12:15.0593056+03:00:Appdomain Disposed
+2019-04-10T12:12:15.0613035+03:00:Trying to cancel thread
+2019-04-10T12:12:15.0613035+03:00:Thread cancelled
+2019-04-10T12:12:15.0712983+03:00:Thread#-1:Scheduler: get next test for thread -1
+2019-04-10T12:12:15.0712983+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-04-10T12:12:15.0712983+03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-04-10T12:12:15.0792947+03:00;Thread#13;Info;test run finished
+2019-04-10T12:12:15.0792947+03:00;Thread#13;Info;publishing test results
+2019-04-10T12:12:15.1142764+03:00;Thread#13;Info;test results published
+2019-04-10T12:12:15.1142764+03:00;Thread#13;Info;generating reports
+2019-04-10T12:12:15.2611889+03:00;Thread#13;Info;Starting external report generation process
+2019-04-10T12:12:17.1690906+03:00;Thread#13;Info;Successfully generated reports.
+2019-04-10T12:12:17.1700896+03:00;Thread#13;Info;Successfully generated reports
+2019-04-10T12:12:17.1780867+03:00:Total: 1 (test executions: 3)
+2019-04-10T12:12:17.1800857+03:00:Succeeded: 0
+2019-04-10T12:12:17.1810854+03:00:Ignored: 0
+2019-04-10T12:12:17.1810854+03:00:Pending: 0
+2019-04-10T12:12:17.1810854+03:00:Skipped: 0
+2019-04-10T12:12:17.1820851+03:00:Failed: 1
+2019-04-10T12:12:17.1960751+03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-04-10T12:12:17.1960751+03:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\niga3\source\repos\End-To-End-Testing\TestResults\TestRunReport.html'
+========== End of log file ==========

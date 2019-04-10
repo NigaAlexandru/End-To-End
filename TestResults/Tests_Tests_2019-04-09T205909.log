@@ -1,0 +1,46 @@
+﻿2019-04-09T20:59:08.8400908+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-04-09T20:59:08.8400908+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.255 in Framework clr40 in x86 mode execution started
+2019-04-09T20:59:08.8400908+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-09T20:59:09.1599064+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-09T20:59:09.1709008+03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\niga3\source\repos\End-To-End-Testing\TestResults" (default)
+2019-04-09T20:59:09.1719005+03:00;VSTestExecutionThread;Info;Profile: Tests
+2019-04-09T20:59:09.2638473+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\niga3\source\repos\End-To-End-Testing\TestResults\Tests_Tests_2019-04-09T205909.log
+2019-04-09T20:59:09.2858338+03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-09T20:59:09.2998266+03:00;Thread#13;Info;Checking license
+2019-04-09T20:59:09.3218137+03:00;Thread#13;Info;Evaluation mode: test execution starts in 6 seconds... (this delay is removed in the registered version)
+2019-04-09T20:59:15.3253414+03:00;Thread#13;Info;Evaluation delay finished.
+2019-04-09T20:59:15.3303381+03:00;Thread#13;Info;License check completed
+2019-04-09T20:59:15.3303381+03:00;Thread#13;Info;starting test run
+2019-04-09T20:59:15.3503245+03:00;Thread#13;Info;Discovering target: Default
+2019-04-09T20:59:15.3503245+03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-09T20:59:15.9080031+03:00:Appdomain Disposed
+2019-04-09T20:59:15.9080031+03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-09T20:59:15.9090031+03:00:Test Suite Dump
+2019-04-09T20:59:15.9120018+03:00:#0: Tests/Tests - 
+2019-04-09T20:59:15.9120018+03:00:#1: Default - 
+2019-04-09T20:59:15.9120018+03:00:#2: Tests - 
+2019-04-09T20:59:15.9120018+03:00:#3: SpecFlowFeature1 - 
+2019-04-09T20:59:15.9589762+03:00:#4: Add two numbers - TestAssembly:Tests/Feature:SpecFlowFeature1/Scenario:Add+two+numbers
+2019-04-09T20:59:15.9589762+03:00:End: Test Suite Dump
+2019-04-09T20:59:15.9919551+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-09T20:59:15.9939538+03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-04-09T20:59:15.9939538+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-04-09T20:59:16.0009502+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-09T20:59:16.0009502+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-04-09T20:59:16.0009502+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-04-09T20:59:16.0009502+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-04-09T20:59:16.0029489+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-04-09T20:59:16.0039503+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-04-09T20:59:16.0069490+03:00:Thread #0: creating new test thread executor for Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-04-09T20:59:16.0089476+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-09T20:59:16.0099446+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-09T20:59:16.0099446+03:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-04-09T20:59:16.1237235+03:00:Thread#0: Test #4/0 is started on thread #0
+2019-04-09T20:59:16.2803642+03:00:Thread#0:T:-> Loading plugin C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-04-09T20:59:16.2903580+03:00:Thread#0:T:-> Using default config
+2019-04-09T20:59:16.3443066+03:00:Thread#0:B:Given I go to google
+2019-04-09T20:59:19.6053052+03:00:Thread#0:T:done: Steps.GivenIGoToGoogle() (3.2s)
+2019-04-09T20:59:19.6252940+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-09T20:59:19.6262937+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-04-09T20:59:19.6262937+03:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-04-09T20:59:19.6262937+03:00:Thread#0:Scheduler: No more tests for thread

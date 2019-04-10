@@ -1,0 +1,246 @@
+﻿2019-04-10T11:55:06.7379268+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-04-10T11:55:06.7379268+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.255 in Framework clr40 in x86 mode execution started
+2019-04-10T11:55:06.7379268+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-10T11:55:06.9330874+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-10T11:55:06.9330874+03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\niga3\source\repos\End-To-End-Testing\TestResults" (default)
+2019-04-10T11:55:06.9330874+03:00;VSTestExecutionThread;Info;Profile: Tests
+2019-04-10T11:55:06.9620508+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\niga3\source\repos\End-To-End-Testing\TestResults\Tests_Tests_2019-04-10T115506.log
+2019-04-10T11:55:06.9710489+03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-10T11:55:06.9760426+03:00;Thread#13;Info;Checking license
+2019-04-10T11:55:06.9930351+03:00;Thread#13;Info;Evaluation mode: test execution starts in 11 seconds... (this delay is removed in the registered version)
+2019-04-10T11:55:17.9941217+03:00;Thread#13;Info;Evaluation delay finished.
+2019-04-10T11:55:18.0061202+03:00;Thread#13;Info;License check completed
+2019-04-10T11:55:18.0061202+03:00;Thread#13;Info;starting test run
+2019-04-10T11:55:18.0241094+03:00;Thread#13;Info;Discovering target: Default
+2019-04-10T11:55:18.0241094+03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-10T11:55:18.4598641+03:00:Appdomain Disposed
+2019-04-10T11:55:18.4598641+03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-10T11:55:18.4608682+03:00:Test Suite Dump
+2019-04-10T11:55:18.4628655+03:00:#0: Tests/Tests - 
+2019-04-10T11:55:18.4638649+03:00:#1: Default - 
+2019-04-10T11:55:18.4638649+03:00:#2: Tests - 
+2019-04-10T11:55:18.4638649+03:00:#3: LoginFlows - 
+2019-04-10T11:55:18.5088358+03:00:#4: Error message received on incorrect login - TestAssembly:Tests/Feature:LoginFlows/Scenario:Error+message+received+on+incorrect+login
+2019-04-10T11:55:18.5088358+03:00:#5: Clicking on the back button takes the user back to email input step - TestAssembly:Tests/Feature:LoginFlows/Scenario:Clicking+on+the+back+button+takes+the+user+back+to+email+input+step
+2019-04-10T11:55:18.5088358+03:00:#6: Login form displayed at the end of the purchase flow - TestAssembly:Tests/Feature:LoginFlows/Scenario:Login+form+displayed+at+the+end+of+the+purchase+flow
+2019-04-10T11:55:18.5088358+03:00:End: Test Suite Dump
+2019-04-10T11:55:18.5368228+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T11:55:18.5388205+03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-04-10T11:55:18.5388205+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-04-10T11:55:18.5428182+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T11:55:18.5428182+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-04-10T11:55:18.5428182+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-04-10T11:55:18.5428182+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-04-10T11:55:18.5448151+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-04-10T11:55:18.5458165+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-04-10T11:55:18.5478152+03:00:Thread #0: creating new test thread executor for Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-04-10T11:55:18.5498173+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-10T11:55:18.5508119+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-10T11:55:18.5508119+03:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-04-10T11:55:18.6197755+03:00:Thread#0: Test #4/0 is started on thread #0
+2019-04-10T11:55:18.7775415+03:00:Thread#0:T:-> Loading plugin C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-04-10T11:55:18.7835368+03:00:Thread#0:T:-> Using default config
+2019-04-10T11:55:18.8504748+03:00:Thread#0:B:Given The user accessed the login page
+2019-04-10T11:55:22.9238908+03:00:Thread#0:T:done: LoginFlowsSteps.GivenTheUserAccessedTheLoginPage() (3.9s)
+2019-04-10T11:55:22.9258902+03:00:Thread#0:B:When the user enters wrong credentials
+2019-04-10T11:55:43.2303766+03:00:Thread#0:T:done: LoginFlowsSteps.WhenTheUserEntersWrongCredentials() (20.3s)
+2019-04-10T11:55:43.2313746+03:00:Thread#0:B:Then An error message is displayed
+2019-04-10T11:55:43.2980878+03:00:Thread#0:T:done: LoginFlowsSteps.ThenAnErrorMessageIsDisplayed() (0.1s)
+2019-04-10T11:55:43.3070825+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T11:55:43.3070825+03:00:Thread#:Scheduler: testitem #5 from normal test queue 
+2019-04-10T11:55:43.3070825+03:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-04-10T11:55:43.3070825+03:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T11:55:43.3070825+03:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-04-10T11:55:43.3070825+03:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-04-10T11:55:43.3070825+03:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-04-10T11:55:43.3070825+03:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-04-10T11:55:43.3070825+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-04-10T11:55:43.5109669+03:00:Thread#0: Test #4/0 is finished on thread #0 as Succeeded within 24.8901917 seconds
+2019-04-10T11:55:43.5149632+03:00:Thread#0: Test #5/0 is started on thread #0
+2019-04-10T11:55:43.5149632+03:00:Thread#0:B:Given The user accessed the login page
+2019-04-10T11:55:47.6388406+03:00:Thread#0:T:error: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:50036
+2019-04-10T11:55:47.6388406+03:00:Thread#0:T:   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+2019-04-10T11:55:47.6388406+03:00:Thread#0:T:   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+2019-04-10T11:55:47.6398434+03:00:Thread#0:T:   --- End of inner exception stack trace ---
+2019-04-10T11:55:47.6398434+03:00:Thread#0:T:   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+2019-04-10T11:55:47.6398434+03:00:Thread#0:T:   at System.Net.HttpWebRequest.GetRequestStream()
+2019-04-10T11:55:47.6398434+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+2019-04-10T11:55:47.6398434+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+2019-04-10T11:55:47.6398434+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+2019-04-10T11:55:47.6398434+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2019-04-10T11:55:47.6408506+03:00:Thread#0:B:When The user clicks on the back button after inputing an email
+2019-04-10T11:55:47.6408506+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T11:55:47.6408506+03:00:Thread#0:B:Then The user is redirected back to email input step
+2019-04-10T11:55:47.6418417+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T11:55:47.6863847+03:00:Thread#0:TestItem#5:Scheduler: reschedule tests for testitem #5
+2019-04-10T11:55:47.6863847+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T11:55:47.6863847+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-04-10T11:55:47.6863847+03:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-04-10T11:55:47.6863847+03:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T11:55:47.6863847+03:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-04-10T11:55:47.6863847+03:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-04-10T11:55:47.6863847+03:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-04-10T11:55:47.6863847+03:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-04-10T11:55:47.6863847+03:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-04-10T11:55:49.6909866+03:00:Thread#0:T:A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:50036/session//screenshot. The status of the exception was ConnectFailure, and the message was: Unable to connect to the remote server
+2019-04-10T11:55:49.6979823+03:00:Thread#0: Test #5/0 is finished on thread #0 as Failed within 6.1830191 seconds
+2019-04-10T11:55:49.6989604+03:00:Thread#0: Test #5/1 is started on thread #0
+2019-04-10T11:55:49.6999543+03:00:Thread#0:T:warning: The previous ScenarioContext was not disposed.
+2019-04-10T11:55:49.7009529+03:00:Thread#0:B:Given The user accessed the login page
+2019-04-10T11:55:51.7190054+03:00:Thread#0:T:error: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:50036
+2019-04-10T11:55:51.7199866+03:00:Thread#0:T:   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+2019-04-10T11:55:51.7199866+03:00:Thread#0:T:   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+2019-04-10T11:55:51.7199866+03:00:Thread#0:T:   --- End of inner exception stack trace ---
+2019-04-10T11:55:51.7319646+03:00:Thread#0:T:   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+2019-04-10T11:55:51.7319646+03:00:Thread#0:T:   at System.Net.HttpWebRequest.GetRequestStream()
+2019-04-10T11:55:51.7319646+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+2019-04-10T11:55:51.7329657+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+2019-04-10T11:55:51.7329657+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+2019-04-10T11:55:51.7329657+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2019-04-10T11:55:51.7339636+03:00:Thread#0:B:When The user clicks on the back button after inputing an email
+2019-04-10T11:55:51.7339636+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T11:55:51.7349869+03:00:Thread#0:B:Then The user is redirected back to email input step
+2019-04-10T11:55:51.7349869+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T11:55:51.7359859+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T11:55:51.7359859+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #5
+2019-04-10T11:55:51.7359859+03:00:Thread#0:Scheduler: considering testitem #5 for thread 0
+2019-04-10T11:55:51.7359859+03:00:Thread#0:TestItem#5:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T11:55:51.7359859+03:00:Thread#0:TestItem#5:runsOnOneOtherThreadSpecific:False
+2019-04-10T11:55:51.7359859+03:00:Thread#0:TestItem#5:runsOnOneOtherThreadUnspecific:False
+2019-04-10T11:55:51.7359859+03:00:Thread#0:Scheduler: using testitem #5 for thread 0
+2019-04-10T11:55:51.7369620+03:00:Thread#0:Scheduler: Test #5 is scheduled for thread
+2019-04-10T11:55:51.7369620+03:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-04-10T11:55:53.7413603+03:00:Thread#0:T:A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:50036/session//screenshot. The status of the exception was ConnectFailure, and the message was: Unable to connect to the remote server
+2019-04-10T11:55:53.7463272+03:00:Thread#0: Test #5/1 is finished on thread #0 as Failed within 4.0473668 seconds
+2019-04-10T11:55:53.7473543+03:00:Thread#0: Test #5/2 is started on thread #0
+2019-04-10T11:55:53.7483276+03:00:Thread#0:T:warning: The previous ScenarioContext was not disposed.
+2019-04-10T11:55:53.7493259+03:00:Thread#0:B:Given The user accessed the login page
+2019-04-10T11:55:55.7617258+03:00:Thread#0:T:error: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:50036
+2019-04-10T11:55:55.7617258+03:00:Thread#0:T:   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+2019-04-10T11:55:55.7627269+03:00:Thread#0:T:   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+2019-04-10T11:55:55.7627269+03:00:Thread#0:T:   --- End of inner exception stack trace ---
+2019-04-10T11:55:55.7637245+03:00:Thread#0:T:   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+2019-04-10T11:55:55.7637245+03:00:Thread#0:T:   at System.Net.HttpWebRequest.GetRequestStream()
+2019-04-10T11:55:55.7647232+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+2019-04-10T11:55:55.7647232+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+2019-04-10T11:55:55.7647232+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+2019-04-10T11:55:55.7657304+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2019-04-10T11:55:55.7657304+03:00:Thread#0:B:When The user clicks on the back button after inputing an email
+2019-04-10T11:55:55.7667225+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T11:55:55.7667225+03:00:Thread#0:B:Then The user is redirected back to email input step
+2019-04-10T11:55:55.7677297+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T11:55:55.7687280+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T11:55:55.7687280+03:00:Thread#:Scheduler: testitem #6 from normal test queue 
+2019-04-10T11:55:55.7687280+03:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-04-10T11:55:55.7687280+03:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T11:55:55.7687280+03:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-04-10T11:55:55.7687280+03:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-04-10T11:55:55.7687280+03:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-04-10T11:55:55.7697281+03:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-04-10T11:55:55.7697281+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-04-10T11:55:57.7741226+03:00:Thread#0:T:A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:50036/session//screenshot. The status of the exception was ConnectFailure, and the message was: Unable to connect to the remote server
+2019-04-10T11:55:57.7780933+03:00:Thread#0: Test #5/2 is finished on thread #0 as Failed within 4.030739 seconds
+2019-04-10T11:55:57.7790923+03:00:Thread#0: Test #6/0 is started on thread #0
+2019-04-10T11:55:57.7810913+03:00:Thread#0:T:warning: The previous ScenarioContext was not disposed.
+2019-04-10T11:55:57.7810913+03:00:Thread#0:B:Given The user accessed a product page
+2019-04-10T11:55:59.7917748+03:00:Thread#0:T:error: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:50036
+2019-04-10T11:55:59.7927546+03:00:Thread#0:T:   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+2019-04-10T11:55:59.7927546+03:00:Thread#0:T:   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+2019-04-10T11:55:59.7927546+03:00:Thread#0:T:   --- End of inner exception stack trace ---
+2019-04-10T11:55:59.7927546+03:00:Thread#0:T:   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+2019-04-10T11:55:59.7927546+03:00:Thread#0:T:   at System.Net.HttpWebRequest.GetRequestStream()
+2019-04-10T11:55:59.7927546+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+2019-04-10T11:55:59.7937697+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+2019-04-10T11:55:59.7937697+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+2019-04-10T11:55:59.7937697+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2019-04-10T11:55:59.7937697+03:00:Thread#0:B:When The unlogged user tries to complete the purchase flow
+2019-04-10T11:55:59.7937697+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T11:55:59.7947536+03:00:Thread#0:B:Then The login form is displayed
+2019-04-10T11:55:59.7947536+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T11:55:59.7947536+03:00:Thread#0:TestItem#6:Scheduler: reschedule tests for testitem #6
+2019-04-10T11:55:59.7957526+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T11:55:59.7957526+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2019-04-10T11:55:59.7957526+03:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-04-10T11:55:59.7957526+03:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T11:55:59.7957526+03:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-04-10T11:55:59.7957526+03:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-04-10T11:55:59.7957526+03:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-04-10T11:55:59.7957526+03:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-04-10T11:55:59.7957526+03:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-04-10T11:56:01.8019125+03:00:Thread#0:T:A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:50036/session//screenshot. The status of the exception was ConnectFailure, and the message was: Unable to connect to the remote server
+2019-04-10T11:56:01.8059092+03:00:Thread#0: Test #6/0 is finished on thread #0 as Failed within 4.0268169 seconds
+2019-04-10T11:56:01.8059092+03:00:Thread#0: Test #6/1 is started on thread #0
+2019-04-10T11:56:01.8069157+03:00:Thread#0:T:warning: The previous ScenarioContext was not disposed.
+2019-04-10T11:56:01.8079086+03:00:Thread#0:B:Given The user accessed a product page
+2019-04-10T11:56:03.8258573+03:00:Thread#0:T:error: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:50036
+2019-04-10T11:56:03.8268574+03:00:Thread#0:T:   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+2019-04-10T11:56:03.8268574+03:00:Thread#0:T:   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+2019-04-10T11:56:03.8268574+03:00:Thread#0:T:   --- End of inner exception stack trace ---
+2019-04-10T11:56:03.8268574+03:00:Thread#0:T:   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+2019-04-10T11:56:03.8268574+03:00:Thread#0:T:   at System.Net.HttpWebRequest.GetRequestStream()
+2019-04-10T11:56:03.8268574+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+2019-04-10T11:56:03.8268574+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+2019-04-10T11:56:03.8278642+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+2019-04-10T11:56:03.8278642+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2019-04-10T11:56:03.8278642+03:00:Thread#0:B:When The unlogged user tries to complete the purchase flow
+2019-04-10T11:56:03.8278642+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T11:56:03.8278642+03:00:Thread#0:B:Then The login form is displayed
+2019-04-10T11:56:03.8288561+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T11:56:03.8288561+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T11:56:03.8288561+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #6
+2019-04-10T11:56:03.8288561+03:00:Thread#0:Scheduler: considering testitem #6 for thread 0
+2019-04-10T11:56:03.8288561+03:00:Thread#0:TestItem#6:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T11:56:03.8288561+03:00:Thread#0:TestItem#6:runsOnOneOtherThreadSpecific:False
+2019-04-10T11:56:03.8288561+03:00:Thread#0:TestItem#6:runsOnOneOtherThreadUnspecific:False
+2019-04-10T11:56:03.8288561+03:00:Thread#0:Scheduler: using testitem #6 for thread 0
+2019-04-10T11:56:03.8288561+03:00:Thread#0:Scheduler: Test #6 is scheduled for thread
+2019-04-10T11:56:03.8288561+03:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-04-10T11:56:05.8329738+03:00:Thread#0:T:A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:50036/session//screenshot. The status of the exception was ConnectFailure, and the message was: Unable to connect to the remote server
+2019-04-10T11:56:05.8369719+03:00:Thread#0: Test #6/1 is finished on thread #0 as Failed within 4.0310627 seconds
+2019-04-10T11:56:05.8369719+03:00:Thread#0: Test #6/2 is started on thread #0
+2019-04-10T11:56:05.8379644+03:00:Thread#0:T:warning: The previous ScenarioContext was not disposed.
+2019-04-10T11:56:05.8389641+03:00:Thread#0:B:Given The user accessed a product page
+2019-04-10T11:56:07.8455660+03:00:Thread#0:T:error: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:50036
+2019-04-10T11:56:07.8455660+03:00:Thread#0:T:   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+2019-04-10T11:56:07.8465657+03:00:Thread#0:T:   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+2019-04-10T11:56:07.8465657+03:00:Thread#0:T:   --- End of inner exception stack trace ---
+2019-04-10T11:56:07.8465657+03:00:Thread#0:T:   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+2019-04-10T11:56:07.8465657+03:00:Thread#0:T:   at System.Net.HttpWebRequest.GetRequestStream()
+2019-04-10T11:56:07.8465657+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+2019-04-10T11:56:07.8465657+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+2019-04-10T11:56:07.8465657+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+2019-04-10T11:56:07.8475647+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2019-04-10T11:56:07.8475647+03:00:Thread#0:B:When The unlogged user tries to complete the purchase flow
+2019-04-10T11:56:07.8475647+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T11:56:07.8475647+03:00:Thread#0:B:Then The login form is displayed
+2019-04-10T11:56:07.8475647+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T11:56:07.8485644+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T11:56:07.8485644+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-04-10T11:56:07.8485644+03:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-04-10T11:56:07.8485644+03:00:Thread#0:Scheduler: No more tests for thread
+2019-04-10T11:56:09.8535983+03:00:Thread#0:T:A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:50036/session//screenshot. The status of the exception was ConnectFailure, and the message was: Unable to connect to the remote server
+2019-04-10T11:56:11.8645055+03:00:Thread#0:T:A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:50036/session//screenshot. The status of the exception was ConnectFailure, and the message was: Unable to connect to the remote server
+2019-04-10T11:56:13.8709511+03:00:Thread#0:T:A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:50036/session//screenshot. The status of the exception was ConnectFailure, and the message was: Unable to connect to the remote server
+2019-04-10T11:56:13.8759485+03:00:Thread#0: Test #6/2 is finished on thread #0 as Failed within 8.0379841 seconds
+2019-04-10T11:56:13.9201931+03:00:Appdomain Disposed
+2019-04-10T11:56:13.9231959+03:00:Trying to cancel thread
+2019-04-10T11:56:13.9231959+03:00:Thread cancelled
+2019-04-10T11:56:13.9401861+03:00:Thread#-1:Scheduler: get next test for thread -1
+2019-04-10T11:56:13.9401861+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-04-10T11:56:13.9401861+03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-04-10T11:56:13.9511836+03:00;Thread#13;Info;test run finished
+2019-04-10T11:56:13.9511836+03:00;Thread#13;Info;publishing test results
+2019-04-10T11:56:13.9841837+03:00;Thread#13;Info;test results published
+2019-04-10T11:56:13.9841837+03:00;Thread#13;Info;generating reports
+2019-04-10T11:56:14.1291101+03:00;Thread#13;Info;Starting external report generation process
+2019-04-10T11:56:16.0754421+03:00;Thread#13;Info;Successfully generated reports.
+2019-04-10T11:56:16.0774415+03:00;Thread#13;Info;Successfully generated reports
+2019-04-10T11:56:16.0874366+03:00:Total: 3 (test executions: 7)
+2019-04-10T11:56:16.0894356+03:00:Succeeded: 1
+2019-04-10T11:56:16.0894356+03:00:Ignored: 0
+2019-04-10T11:56:16.0904349+03:00:Pending: 0
+2019-04-10T11:56:16.0904349+03:00:Skipped: 0
+2019-04-10T11:56:16.0914343+03:00:Failed: 2
+2019-04-10T11:56:16.1024294+03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-04-10T11:56:16.1024294+03:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\niga3\source\repos\End-To-End-Testing\TestResults\TestRunReport.html'
+========== End of log file ==========

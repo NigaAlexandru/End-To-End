@@ -1,0 +1,99 @@
+﻿2019-04-09T19:56:11.7560919+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-04-09T19:56:11.7560919+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.255 in Framework clr40 in x86 mode execution started
+2019-04-09T19:56:11.7560919+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-09T19:56:11.8800397+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-09T19:56:11.8810394+03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\niga3\source\repos\End-To-End-Testing\TestResults" (default)
+2019-04-09T19:56:11.8810394+03:00;VSTestExecutionThread;Info;Profile: Tests
+2019-04-09T19:56:11.9030088+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\niga3\source\repos\End-To-End-Testing\TestResults\Tests_Tests_2019-04-09T195611.log
+2019-04-09T19:56:11.9140001+03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-09T19:56:11.9199993+03:00;Thread#13;Info;Checking license
+2019-04-09T19:56:11.9319900+03:00;Thread#13;Info;Evaluation mode: test execution starts in 10 seconds... (this delay is removed in the registered version)
+2019-04-09T19:56:21.9328501+03:00;Thread#13;Info;Evaluation delay finished.
+2019-04-09T19:56:21.9438685+03:00;Thread#13;Info;License check completed
+2019-04-09T19:56:21.9438685+03:00;Thread#13;Info;starting test run
+2019-04-09T19:56:21.9638364+03:00;Thread#13;Info;Discovering target: Default
+2019-04-09T19:56:21.9638364+03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-09T19:56:22.3553626+03:00:Appdomain Disposed
+2019-04-09T19:56:22.3553626+03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-09T19:56:22.3573842+03:00:Test Suite Dump
+2019-04-09T19:56:22.3583842+03:00:#0: Tests/Tests - 
+2019-04-09T19:56:22.3583842+03:00:#1: Default - 
+2019-04-09T19:56:22.3583842+03:00:#2: Tests - 
+2019-04-09T19:56:22.3583842+03:00:#3: SpecFlowFeature1 - 
+2019-04-09T19:56:22.3923713+03:00:#4: Add two numbers - TestAssembly:Tests/Feature:SpecFlowFeature1/Scenario:Add+two+numbers
+2019-04-09T19:56:22.3923713+03:00:End: Test Suite Dump
+2019-04-09T19:56:22.4153277+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-09T19:56:22.4173264+03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-04-09T19:56:22.4173264+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-04-09T19:56:22.4233231+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-09T19:56:22.4233231+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-04-09T19:56:22.4233231+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-04-09T19:56:22.4233231+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-04-09T19:56:22.4243225+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-04-09T19:56:22.4253225+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-04-09T19:56:22.4283486+03:00:Thread #0: creating new test thread executor for Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-04-09T19:56:22.4293448+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-09T19:56:22.4303213+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-09T19:56:22.4303213+03:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-04-09T19:56:22.4942848+03:00:Thread#0: Test #4/0 is started on thread #0
+2019-04-09T19:56:22.6446096+03:00:Thread#0:T:-> Loading plugin C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-04-09T19:56:22.6566020+03:00:Thread#0:T:-> Using default config
+2019-04-09T19:56:22.7155948+03:00:Thread#0:B:Given I go to google
+2019-04-09T19:56:24.5393115+03:00:Thread#0:T:error: session not created: This version of ChromeDriver only supports Chrome version 74
+2019-04-09T19:56:24.5393115+03:00:Thread#0:T:  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (SessionNotCreated)
+2019-04-09T19:56:24.6062727+03:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2019-04-09T19:56:24.6072728+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-09T19:56:24.6072728+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-04-09T19:56:24.6072728+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-04-09T19:56:24.6072728+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-09T19:56:24.6072728+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-04-09T19:56:24.6072728+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-04-09T19:56:24.6072728+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-04-09T19:56:24.6072728+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-04-09T19:56:24.6072728+03:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-04-09T19:56:24.6192652+03:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 2.12398 seconds
+2019-04-09T19:56:24.6212652+03:00:Thread#0: Test #4/1 is started on thread #0
+2019-04-09T19:56:24.6212652+03:00:Thread#0:B:Given I go to google
+2019-04-09T19:56:25.9625459+03:00:Thread#0:T:error: session not created: This version of ChromeDriver only supports Chrome version 74
+2019-04-09T19:56:25.9625459+03:00:Thread#0:T:  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (SessionNotCreated)
+2019-04-09T19:56:25.9635453+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-09T19:56:25.9635453+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-04-09T19:56:25.9635453+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-04-09T19:56:25.9635453+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-09T19:56:25.9635453+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-04-09T19:56:25.9635453+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-04-09T19:56:25.9635453+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-04-09T19:56:25.9635453+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-04-09T19:56:25.9645446+03:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-04-09T19:56:25.9645446+03:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 1.3432794 seconds
+2019-04-09T19:56:25.9655446+03:00:Thread#0: Test #4/2 is started on thread #0
+2019-04-09T19:56:25.9655446+03:00:Thread#0:B:Given I go to google
+2019-04-09T19:56:27.2988792+03:00:Thread#0:T:error: session not created: This version of ChromeDriver only supports Chrome version 74
+2019-04-09T19:56:27.2998775+03:00:Thread#0:T:  (Driver info: chromedriver=74.0.3729.6 (255758eccf3d244491b8a1317aa76e1ce10d57e9-refs/branch-heads/3729@{#29}),platform=Windows NT 10.0.17134 x86_64) (SessionNotCreated)
+2019-04-09T19:56:27.2998775+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-09T19:56:27.2998775+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-04-09T19:56:27.2998775+03:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-04-09T19:56:27.2998775+03:00:Thread#0:Scheduler: No more tests for thread
+2019-04-09T19:56:27.3028845+03:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 1.3373399 seconds
+2019-04-09T19:56:27.3328581+03:00:Appdomain Disposed
+2019-04-09T19:56:27.3348568+03:00:Trying to cancel thread
+2019-04-09T19:56:27.3348568+03:00:Thread cancelled
+2019-04-09T19:56:27.3488513+03:00:Thread#-1:Scheduler: get next test for thread -1
+2019-04-09T19:56:27.3488513+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-04-09T19:56:27.3488513+03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-04-09T19:56:27.3588454+03:00;Thread#13;Info;test run finished
+2019-04-09T19:56:27.3588454+03:00;Thread#13;Info;publishing test results
+2019-04-09T19:56:27.3948244+03:00;Thread#13;Info;test results published
+2019-04-09T19:56:27.3948244+03:00;Thread#13;Info;generating reports
+2019-04-09T19:56:27.5417406+03:00;Thread#13;Info;Starting external report generation process
+2019-04-09T19:56:29.4859202+03:00;Thread#13;Info;Successfully generated reports.
+2019-04-09T19:56:29.4879200+03:00;Thread#13;Info;Successfully generated reports
+2019-04-09T19:56:29.4959147+03:00:Total: 1 (test executions: 3)
+2019-04-09T19:56:29.4989137+03:00:Succeeded: 0
+2019-04-09T19:56:29.4999127+03:00:Ignored: 0
+2019-04-09T19:56:29.4999127+03:00:Pending: 0
+2019-04-09T19:56:29.4999127+03:00:Skipped: 0
+2019-04-09T19:56:29.5009124+03:00:Failed: 1
+2019-04-09T19:56:29.5119079+03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-04-09T19:56:29.5119079+03:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\niga3\source\repos\End-To-End-Testing\TestResults\TestRunReport.html'
+========== End of log file ==========

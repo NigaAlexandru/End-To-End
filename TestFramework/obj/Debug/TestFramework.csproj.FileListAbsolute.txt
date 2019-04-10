@@ -1,0 +1,12 @@
+C:\Users\niga3\source\repos\End-To-End-Testing\TestFramework\bin\Debug\TestFramework.dll.config
+C:\Users\niga3\source\repos\End-To-End-Testing\TestFramework\bin\Debug\TestFramework.dll
+C:\Users\niga3\source\repos\End-To-End-Testing\TestFramework\bin\Debug\TestFramework.pdb
+C:\Users\niga3\source\repos\End-To-End-Testing\TestFramework\bin\Debug\WebDriver.dll
+C:\Users\niga3\source\repos\End-To-End-Testing\TestFramework\bin\Debug\WebDriver.Support.dll
+C:\Users\niga3\source\repos\End-To-End-Testing\TestFramework\bin\Debug\WebDriver.xml
+C:\Users\niga3\source\repos\End-To-End-Testing\TestFramework\bin\Debug\WebDriver.Support.xml
+C:\Users\niga3\source\repos\End-To-End-Testing\TestFramework\obj\Debug\TestFramework.csproj.CoreCompileInputs.cache
+C:\Users\niga3\source\repos\End-To-End-Testing\TestFramework\obj\Debug\TestFramework.csproj.CopyComplete
+C:\Users\niga3\source\repos\End-To-End-Testing\TestFramework\obj\Debug\TestFramework.dll
+C:\Users\niga3\source\repos\End-To-End-Testing\TestFramework\obj\Debug\TestFramework.pdb
+C:\Users\niga3\source\repos\End-To-End-Testing\TestFramework\obj\Debug\TestFramework.csprojAssemblyReference.cache

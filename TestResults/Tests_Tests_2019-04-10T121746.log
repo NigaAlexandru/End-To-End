@@ -1,0 +1,115 @@
+﻿2019-04-10T12:17:46.5355029+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-04-10T12:17:46.5355029+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.255 in Framework clr40 in x86 mode execution started
+2019-04-10T12:17:46.5355029+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-10T12:17:46.6904337+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-10T12:17:46.6904337+03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\niga3\source\repos\End-To-End-Testing\TestResults" (default)
+2019-04-10T12:17:46.6914135+03:00;VSTestExecutionThread;Info;Profile: Tests
+2019-04-10T12:17:46.7134041+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\niga3\source\repos\End-To-End-Testing\TestResults\Tests_Tests_2019-04-10T121746.log
+2019-04-10T12:17:46.7213985+03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-10T12:17:46.7273925+03:00;Thread#13;Info;Checking license
+2019-04-10T12:17:46.7433857+03:00;Thread#13;Info;Evaluation mode: test execution starts in 5 seconds... (this delay is removed in the registered version)
+2019-04-10T12:17:51.7446792+03:00;Thread#13;Info;Evaluation delay finished.
+2019-04-10T12:17:51.7636622+03:00;Thread#13;Info;License check completed
+2019-04-10T12:17:51.7646609+03:00;Thread#13;Info;starting test run
+2019-04-10T12:17:51.7886454+03:00;Thread#13;Info;Discovering target: Default
+2019-04-10T12:17:51.7896451+03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-10T12:17:52.2183979+03:00:Appdomain Disposed
+2019-04-10T12:17:52.2183979+03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-10T12:17:52.2194007+03:00:Test Suite Dump
+2019-04-10T12:17:52.2213983+03:00:#0: Tests/Tests - 
+2019-04-10T12:17:52.2213983+03:00:#1: Default - 
+2019-04-10T12:17:52.2213983+03:00:#2: Tests - 
+2019-04-10T12:17:52.2213983+03:00:#3: LoginFlows - 
+2019-04-10T12:17:52.2633720+03:00:#4: Error message received on incorrect login - TestAssembly:Tests/Feature:LoginFlows/Scenario:Error+message+received+on+incorrect+login
+2019-04-10T12:17:52.2633720+03:00:End: Test Suite Dump
+2019-04-10T12:17:52.2903579+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T12:17:52.2933556+03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-04-10T12:17:52.2933556+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-04-10T12:17:52.2973810+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T12:17:52.2973810+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-04-10T12:17:52.2973810+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-04-10T12:17:52.2973810+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-04-10T12:17:52.2993512+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-04-10T12:17:52.3003509+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-04-10T12:17:52.3043500+03:00:Thread #0: creating new test thread executor for Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-04-10T12:17:52.3073484+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-10T12:17:52.3083470+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-10T12:17:52.3093460+03:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-04-10T12:17:52.3803049+03:00:Thread#0: Test #4/0 is started on thread #0
+2019-04-10T12:17:52.5287303+03:00:Thread#0:T:-> Loading plugin C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-04-10T12:17:52.5347256+03:00:Thread#0:T:-> Using default config
+2019-04-10T12:17:52.6026892+03:00:Thread#0:B:Given The user accessed the login page
+2019-04-10T12:17:55.2063012+03:00:Thread#0:T:done: LoginFlowsSteps.GivenTheUserAccessedTheLoginPage() (2.5s)
+2019-04-10T12:17:55.2082995+03:00:Thread#0:B:When the user enters wrong credentials
+2019-04-10T12:18:15.4884659+03:00:Thread#0:T:error: Could not find element by: By.Id: email
+2019-04-10T12:18:15.4884659+03:00:Thread#0:B:Then An error message is displayed
+2019-04-10T12:18:15.4894522+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T12:18:15.5264199+03:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2019-04-10T12:18:15.5274196+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T12:18:15.5274196+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-04-10T12:18:15.5274196+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-04-10T12:18:15.5274196+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T12:18:15.5274196+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-04-10T12:18:15.5274196+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-04-10T12:18:15.5274196+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-04-10T12:18:15.5274196+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-04-10T12:18:15.5274196+03:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-04-10T12:18:15.5434538+03:00:Thread#0:T:Unable to get browser
+2019-04-10T12:18:15.5574463+03:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 23.1761421 seconds
+2019-04-10T12:18:15.5594457+03:00:Thread#0: Test #4/1 is started on thread #0
+2019-04-10T12:18:15.5604426+03:00:Thread#0:T:warning: The previous ScenarioContext was not disposed.
+2019-04-10T12:18:15.5654396+03:00:Thread#0:B:Given The user accessed the login page
+2019-04-10T12:18:15.5714370+03:00:Thread#0:T:error: Unable to get browser
+2019-04-10T12:18:15.5724364+03:00:Thread#0:B:When the user enters wrong credentials
+2019-04-10T12:18:15.5724364+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T12:18:15.5724364+03:00:Thread#0:B:Then An error message is displayed
+2019-04-10T12:18:15.5734357+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T12:18:15.5744381+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T12:18:15.5744381+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-04-10T12:18:15.5744381+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-04-10T12:18:15.5744381+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T12:18:15.5744381+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-04-10T12:18:15.5744381+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-04-10T12:18:15.5744381+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-04-10T12:18:15.5744381+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-04-10T12:18:15.5744381+03:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-04-10T12:18:15.5864271+03:00:Thread#0:T:Unable to get browser
+2019-04-10T12:18:15.5884265+03:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 0.0289808 seconds
+2019-04-10T12:18:15.5894258+03:00:Thread#0: Test #4/2 is started on thread #0
+2019-04-10T12:18:15.5894258+03:00:Thread#0:T:warning: The previous ScenarioContext was not disposed.
+2019-04-10T12:18:15.5894258+03:00:Thread#0:B:Given The user accessed the login page
+2019-04-10T12:18:15.6034481+03:00:Thread#0:T:error: Unable to get browser
+2019-04-10T12:18:15.6044467+03:00:Thread#0:B:When the user enters wrong credentials
+2019-04-10T12:18:15.6044467+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T12:18:15.6044467+03:00:Thread#0:B:Then An error message is displayed
+2019-04-10T12:18:15.6044467+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T12:18:15.6054683+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T12:18:15.6054683+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-04-10T12:18:15.6054683+03:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-04-10T12:18:15.6054683+03:00:Thread#0:Scheduler: No more tests for thread
+2019-04-10T12:18:15.6174727+03:00:Thread#0:T:Unable to get browser
+2019-04-10T12:18:15.6379094+03:00:Thread#0:T:Unable to get browser
+2019-04-10T12:18:15.6519011+03:00:Thread#0:T:Unable to get browser
+2019-04-10T12:18:15.6538793+03:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 0.0644535 seconds
+2019-04-10T12:18:15.6708674+03:00:Appdomain Disposed
+2019-04-10T12:18:15.6728702+03:00:Trying to cancel thread
+2019-04-10T12:18:15.6728702+03:00:Thread cancelled
+2019-04-10T12:18:15.6798652+03:00:Thread#-1:Scheduler: get next test for thread -1
+2019-04-10T12:18:15.6798652+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-04-10T12:18:15.6798652+03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-04-10T12:18:15.6868585+03:00;Thread#13;Info;test run finished
+2019-04-10T12:18:15.6868585+03:00;Thread#13;Info;publishing test results
+2019-04-10T12:18:15.7168657+03:00;Thread#13;Info;test results published
+2019-04-10T12:18:15.7168657+03:00;Thread#13;Info;generating reports
+2019-04-10T12:18:15.8687574+03:00;Thread#13;Info;Starting external report generation process
+2019-04-10T12:18:17.8060228+03:00;Thread#13;Info;Successfully generated reports.
+2019-04-10T12:18:17.8070006+03:00;Thread#13;Info;Successfully generated reports
+2019-04-10T12:18:17.8189957+03:00:Total: 1 (test executions: 3)
+2019-04-10T12:18:17.8209951+03:00:Succeeded: 0
+2019-04-10T12:18:17.8219941+03:00:Ignored: 0
+2019-04-10T12:18:17.8229934+03:00:Pending: 0
+2019-04-10T12:18:17.8229934+03:00:Skipped: 0
+2019-04-10T12:18:17.8239928+03:00:Failed: 1
+2019-04-10T12:18:17.8389815+03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-04-10T12:18:17.8389815+03:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\niga3\source\repos\End-To-End-Testing\TestResults\TestRunReport.html'
+========== End of log file ==========

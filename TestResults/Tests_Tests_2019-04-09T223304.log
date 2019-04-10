@@ -1,0 +1,111 @@
+﻿2019-04-09T22:33:04.2406767+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-04-09T22:33:04.2406767+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.255 in Framework clr40 in x86 mode execution started
+2019-04-09T22:33:04.2406767+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-09T22:33:04.3536113+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-09T22:33:04.3536113+03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\niga3\source\repos\End-To-End-Testing\TestResults" (default)
+2019-04-09T22:33:04.3536113+03:00;VSTestExecutionThread;Info;Profile: Tests
+2019-04-09T22:33:04.3745878+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\niga3\source\repos\End-To-End-Testing\TestResults\Tests_Tests_2019-04-09T223304.log
+2019-04-09T22:33:04.3815962+03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-09T22:33:04.3855936+03:00;Thread#13;Info;Checking license
+2019-04-09T22:33:04.3985857+03:00;Thread#13;Info;Evaluation mode: test execution starts in 9 seconds... (this delay is removed in the registered version)
+2019-04-09T22:33:13.3997519+03:00;Thread#13;Info;Evaluation delay finished.
+2019-04-09T22:33:13.4247170+03:00;Thread#13;Info;License check completed
+2019-04-09T22:33:13.4257173+03:00;Thread#13;Info;starting test run
+2019-04-09T22:33:13.4536940+03:00;Thread#13;Info;Discovering target: Default
+2019-04-09T22:33:13.4546937+03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-09T22:33:13.9379398+03:00:Appdomain Disposed
+2019-04-09T22:33:13.9379398+03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-09T22:33:13.9389392+03:00:Test Suite Dump
+2019-04-09T22:33:13.9409371+03:00:#0: Tests/Tests - 
+2019-04-09T22:33:13.9409371+03:00:#1: Default - 
+2019-04-09T22:33:13.9409371+03:00:#2: Tests - 
+2019-04-09T22:33:13.9409371+03:00:#3: PurchaseFlows - 
+2019-04-09T22:33:13.9729201+03:00:#4: Add product to basker - TestAssembly:Tests/Feature:PurchaseFlows/Scenario:Add+product+to+basker
+2019-04-09T22:33:13.9729201+03:00:End: Test Suite Dump
+2019-04-09T22:33:13.9949076+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-09T22:33:13.9969067+03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-04-09T22:33:13.9969067+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-04-09T22:33:14.0009023+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-09T22:33:14.0009023+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-04-09T22:33:14.0009023+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-04-09T22:33:14.0009023+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-04-09T22:33:14.0019020+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-04-09T22:33:14.0029017+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-04-09T22:33:14.0068990+03:00:Thread #0: creating new test thread executor for Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-04-09T22:33:14.0088977+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-09T22:33:14.0088977+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-09T22:33:14.0088977+03:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-04-09T22:33:14.0638887+03:00:Thread#0: Test #4/0 is started on thread #0
+2019-04-09T22:33:14.2197768+03:00:Thread#0:T:-> Loading plugin C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-04-09T22:33:14.2267944+03:00:Thread#0:T:-> Using default config
+2019-04-09T22:33:14.2807635+03:00:Thread#0:B:Given The user accessed a product page
+2019-04-09T22:33:18.2295409+03:00:Thread#0:T:error: Exception has been thrown by the target of an invocation.
+2019-04-09T22:33:18.2315396+03:00:Thread#0:B:When The user clicks on the buy button available
+2019-04-09T22:33:18.2325390+03:00:Thread#0:T:skipped because of previous errors
+2019-04-09T22:33:18.2335523+03:00:Thread#0:B:Then The product is successfully added to basket
+2019-04-09T22:33:18.2335523+03:00:Thread#0:T:skipped because of previous errors
+2019-04-09T22:33:18.2585587+03:00:Thread#0:TestItem#4:Scheduler: reschedule tests for testitem #4
+2019-04-09T22:33:18.2585587+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-09T22:33:18.2585587+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-04-09T22:33:18.2585587+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-04-09T22:33:18.2585587+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-09T22:33:18.2585587+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-04-09T22:33:18.2585587+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-04-09T22:33:18.2585587+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-04-09T22:33:18.2585587+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-04-09T22:33:18.2585587+03:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-04-09T22:33:18.7281942+03:00:Thread#0: Test #4/0 is finished on thread #0 as Failed within 4.6623074 seconds
+2019-04-09T22:33:18.7291935+03:00:Thread#0: Test #4/1 is started on thread #0
+2019-04-09T22:33:18.7301932+03:00:Thread#0:B:Given The user accessed a product page
+2019-04-09T22:33:22.7785002+03:00:Thread#0:T:error: Exception has been thrown by the target of an invocation.
+2019-04-09T22:33:22.7795016+03:00:Thread#0:B:When The user clicks on the buy button available
+2019-04-09T22:33:22.7795016+03:00:Thread#0:T:skipped because of previous errors
+2019-04-09T22:33:22.7804924+03:00:Thread#0:B:Then The product is successfully added to basket
+2019-04-09T22:33:22.7804924+03:00:Thread#0:T:skipped because of previous errors
+2019-04-09T22:33:22.7824982+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-09T22:33:22.7824982+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #4
+2019-04-09T22:33:22.7824982+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-04-09T22:33:22.7824982+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-09T22:33:22.7824982+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-04-09T22:33:22.7824982+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-04-09T22:33:22.7824982+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-04-09T22:33:22.7824982+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-04-09T22:33:22.7824982+03:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-04-09T22:33:24.7947264+03:00:Thread#0:T:A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:53601/session//screenshot. The status of the exception was ConnectFailure, and the message was: Unable to connect to the remote server
+2019-04-09T22:33:24.8007231+03:00:Thread#0: Test #4/1 is finished on thread #0 as Failed within 6.0715296 seconds
+2019-04-09T22:33:24.8017228+03:00:Thread#0: Test #4/2 is started on thread #0
+2019-04-09T22:33:24.8027214+03:00:Thread#0:T:warning: The previous ScenarioContext was not disposed.
+2019-04-09T22:33:24.8037221+03:00:Thread#0:B:Given The user accessed a product page
+2019-04-09T22:33:26.8108787+03:00:Thread#0:T:error: Exception has been thrown by the target of an invocation.
+2019-04-09T22:33:26.8118828+03:00:Thread#0:B:When The user clicks on the buy button available
+2019-04-09T22:33:26.8118828+03:00:Thread#0:T:skipped because of previous errors
+2019-04-09T22:33:26.8128825+03:00:Thread#0:B:Then The product is successfully added to basket
+2019-04-09T22:33:26.8128825+03:00:Thread#0:T:skipped because of previous errors
+2019-04-09T22:33:26.8149027+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-09T22:33:26.8149027+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-04-09T22:33:26.8149027+03:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-04-09T22:33:26.8149027+03:00:Thread#0:Scheduler: No more tests for thread
+2019-04-09T22:33:28.8208139+03:00:Thread#0:T:A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:53601/session//screenshot. The status of the exception was ConnectFailure, and the message was: Unable to connect to the remote server
+2019-04-09T22:33:28.8357999+03:00:Thread#0: Test #4/2 is finished on thread #0 as Failed within 4.0340771 seconds
+2019-04-09T22:33:28.8917855+03:00:Appdomain Disposed
+2019-04-09T22:33:28.8947629+03:00:Trying to cancel thread
+2019-04-09T22:33:28.8947629+03:00:Thread cancelled
+2019-04-09T22:33:28.9107565+03:00:Thread#-1:Scheduler: get next test for thread -1
+2019-04-09T22:33:28.9107565+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-04-09T22:33:28.9107565+03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-04-09T22:33:28.9177505+03:00;Thread#13;Info;test run finished
+2019-04-09T22:33:28.9177505+03:00;Thread#13;Info;publishing test results
+2019-04-09T22:33:28.9517328+03:00;Thread#13;Info;test results published
+2019-04-09T22:33:28.9527322+03:00;Thread#13;Info;generating reports
+2019-04-09T22:33:29.1226318+03:00;Thread#13;Info;Starting external report generation process
+2019-04-09T22:33:30.9806569+03:00;Thread#13;Info;Successfully generated reports.
+2019-04-09T22:33:30.9816579+03:00;Thread#13;Info;Successfully generated reports
+2019-04-09T22:33:30.9906520+03:00:Total: 1 (test executions: 3)
+2019-04-09T22:33:30.9926503+03:00:Succeeded: 0
+2019-04-09T22:33:30.9926503+03:00:Ignored: 0
+2019-04-09T22:33:30.9936500+03:00:Pending: 0
+2019-04-09T22:33:30.9936500+03:00:Skipped: 0
+2019-04-09T22:33:30.9936500+03:00:Failed: 1
+2019-04-09T22:33:31.0096411+03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-04-09T22:33:31.0096411+03:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\niga3\source\repos\End-To-End-Testing\TestResults\TestRunReport.html'
+========== End of log file ==========

@@ -1,0 +1,75 @@
+﻿2019-04-10T10:24:58.3352116+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-04-10T10:24:58.3352116+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.255 in Framework clr40 in x86 mode execution started
+2019-04-10T10:24:58.3352116+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-10T10:24:58.4791312+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-10T10:24:58.4801305+03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\niga3\source\repos\End-To-End-Testing\TestResults" (default)
+2019-04-10T10:24:58.4801305+03:00;VSTestExecutionThread;Info;Profile: Tests
+2019-04-10T10:24:58.5071154+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\niga3\source\repos\End-To-End-Testing\TestResults\Tests_Tests_2019-04-10T102458.log
+2019-04-10T10:24:58.5181068+03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-10T10:24:58.5241062+03:00;Thread#13;Info;Checking license
+2019-04-10T10:24:58.5410936+03:00;Thread#13;Info;Evaluation mode: test execution starts in 9 seconds... (this delay is removed in the registered version)
+2019-04-10T10:25:07.5428244+03:00;Thread#13;Info;Evaluation delay finished.
+2019-04-10T10:25:07.5637346+03:00;Thread#13;Info;License check completed
+2019-04-10T10:25:07.5647350+03:00;Thread#13;Info;starting test run
+2019-04-10T10:25:07.5827453+03:00;Thread#13;Info;Discovering target: Default
+2019-04-10T10:25:07.5837440+03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-10T10:25:07.9276878+03:00:Appdomain Disposed
+2019-04-10T10:25:07.9276878+03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-10T10:25:07.9286871+03:00:Test Suite Dump
+2019-04-10T10:25:07.9317043+03:00:#0: Tests/Tests - 
+2019-04-10T10:25:07.9317043+03:00:#1: Default - 
+2019-04-10T10:25:07.9317043+03:00:#2: Tests - 
+2019-04-10T10:25:07.9317043+03:00:#7: PurchaseFlows - 
+2019-04-10T10:25:07.9616694+03:00:#10: Clicking on "See basket" takes the user to basket page - TestAssembly:Tests/Feature:PurchaseFlows/Scenario:Clicking+on+%22See+basket%22+takes+the+user+to+basket+page
+2019-04-10T10:25:07.9616694+03:00:End: Test Suite Dump
+2019-04-10T10:25:07.9876717+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T10:25:07.9896708+03:00:Thread#:Scheduler: testitem #10 from normal test queue 
+2019-04-10T10:25:07.9896708+03:00:Thread#0:Scheduler: considering testitem #10 for thread 0
+2019-04-10T10:25:07.9936688+03:00:Thread#0:TestItem#10:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T10:25:07.9936688+03:00:Thread#0:TestItem#10:runsOnOneOtherThreadSpecific:False
+2019-04-10T10:25:07.9936688+03:00:Thread#0:TestItem#10:runsOnOneOtherThreadUnspecific:False
+2019-04-10T10:25:07.9936688+03:00:Thread#0:Scheduler: using testitem #10 for thread 0
+2019-04-10T10:25:07.9946678+03:00:Thread#0:Scheduler: Test #10 is scheduled for thread
+2019-04-10T10:25:07.9956524+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-04-10T10:25:07.9986652+03:00:Thread #0: creating new test thread executor for Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-04-10T10:25:08.0006443+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-10T10:25:08.0006443+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-10T10:25:08.0016440+03:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-04-10T10:25:08.0585951+03:00:Thread#0: Test #10/0 is started on thread #0
+2019-04-10T10:25:08.1982539+03:00:Thread#0:T:-> Loading plugin C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-04-10T10:25:08.2052516+03:00:Thread#0:T:-> Using default config
+2019-04-10T10:25:08.2602194+03:00:Thread#0:B:Given The user added a product to basket
+2019-04-10T10:25:37.4732302+03:00:Thread#0:T:done: PurchaseFlowsSteps.GivenTheUserAddedAProductToBasket() (29.1s)
+2019-04-10T10:25:37.4752293+03:00:Thread#0:B:When The user clicks on see basket button
+2019-04-10T10:25:41.5713321+03:00:Thread#0:T:done: PurchaseFlowsSteps.WhenTheUserClicksOnSeeBasketButton() (4.1s)
+2019-04-10T10:25:41.5723397+03:00:Thread#0:B:Then The user is redirected to basket page
+2019-04-10T10:25:41.5813269+03:00:Thread#0:T:done: PurchaseFlowsSteps.ThenTheUserIsRedirectedToBasketPage() (0.0s)
+2019-04-10T10:25:41.5983167+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T10:25:41.5983167+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-04-10T10:25:41.5983167+03:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-04-10T10:25:41.5983167+03:00:Thread#0:Scheduler: No more tests for thread
+2019-04-10T10:25:46.8305702+03:00:Thread#0:T:A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:62795/session//screenshot. The status of the exception was ConnectFailure, and the message was: Unable to connect to the remote server
+2019-04-10T10:25:48.9237982+03:00:Thread#0:T:A exception with a null response was thrown sending an HTTP request to the remote WebDriver server for URL http://localhost:62795/session//screenshot. The status of the exception was ConnectFailure, and the message was: Unable to connect to the remote server
+2019-04-10T10:25:48.9457864+03:00:Thread#0: Test #10/0 is finished on thread #0 as CleanupFailed within 40.8852101 seconds
+2019-04-10T10:25:48.9737508+03:00:Appdomain Disposed
+2019-04-10T10:25:48.9747498+03:00:Trying to cancel thread
+2019-04-10T10:25:48.9757484+03:00:Thread cancelled
+2019-04-10T10:25:48.9817452+03:00:Thread#-1:Scheduler: get next test for thread -1
+2019-04-10T10:25:48.9817452+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-04-10T10:25:48.9817452+03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-04-10T10:25:48.9827445+03:00;Thread#13;Info;test run finished
+2019-04-10T10:25:48.9827445+03:00;Thread#13;Info;publishing test results
+2019-04-10T10:25:49.0147254+03:00;Thread#13;Info;test results published
+2019-04-10T10:25:49.0157261+03:00;Thread#13;Info;generating reports
+2019-04-10T10:25:49.1466717+03:00;Thread#13;Info;Starting external report generation process
+2019-04-10T10:25:51.1992727+03:00;Thread#13;Info;Successfully generated reports.
+2019-04-10T10:25:51.2012717+03:00;Thread#13;Info;Successfully generated reports
+2019-04-10T10:25:51.2122655+03:00:Total: 1
+2019-04-10T10:25:51.2152638+03:00:Succeeded: 0
+2019-04-10T10:25:51.2162632+03:00:Ignored: 0
+2019-04-10T10:25:51.2162632+03:00:Pending: 0
+2019-04-10T10:25:51.2162632+03:00:Skipped: 0
+2019-04-10T10:25:51.2172625+03:00:Failed: 1
+2019-04-10T10:25:51.2302553+03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-04-10T10:25:51.2302553+03:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\niga3\source\repos\End-To-End-Testing\TestResults\TestRunReport.html'
+========== End of log file ==========

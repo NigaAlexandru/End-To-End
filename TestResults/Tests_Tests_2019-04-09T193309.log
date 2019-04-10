@@ -1,0 +1,41 @@
+﻿2019-04-09T19:33:09.4078828+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-04-09T19:33:09.4078828+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.255 in Framework clr40 in x86 mode execution started
+2019-04-09T19:33:09.4078828+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-09T19:33:09.7406926+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-09T19:33:09.7406926+03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\niga3\source\repos\End-To-End-Testing\TestResults" (default)
+2019-04-09T19:33:09.7406926+03:00;VSTestExecutionThread;Info;Profile: Tests
+2019-04-09T19:33:09.7736722+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\niga3\source\repos\End-To-End-Testing\TestResults\Tests_Tests_2019-04-09T193309.log
+2019-04-09T19:33:09.7886643+03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-09T19:33:09.7986580+03:00;Thread#13;Info;Checking license
+2019-04-09T19:33:09.8176472+03:00;Thread#13;Info;Evaluation mode: test execution starts in 13 seconds... (this delay is removed in the registered version)
+2019-04-09T19:33:22.8200383+03:00;Thread#13;Info;Evaluation delay finished.
+2019-04-09T19:33:22.8519600+03:00;Thread#13;Info;License check completed
+2019-04-09T19:33:22.8519600+03:00;Thread#13;Info;starting test run
+2019-04-09T19:33:22.8749465+03:00;Thread#13;Info;Discovering target: Default
+2019-04-09T19:33:22.8759462+03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-09T19:33:23.4398220+03:00:Appdomain Disposed
+2019-04-09T19:33:23.4398220+03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-09T19:33:23.4408405+03:00:Test Suite Dump
+2019-04-09T19:33:23.4418398+03:00:#0: Tests/Tests - 
+2019-04-09T19:33:23.4418398+03:00:#1: Default - 
+2019-04-09T19:33:23.4418398+03:00:#2: Tests - 
+2019-04-09T19:33:23.4418398+03:00:#3: SpecFlowFeature1 - 
+2019-04-09T19:33:23.4898126+03:00:#4: Add two numbers - TestAssembly:Tests/Feature:SpecFlowFeature1/Scenario:Add+two+numbers
+2019-04-09T19:33:23.4898126+03:00:End: Test Suite Dump
+2019-04-09T19:33:23.5137988+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-09T19:33:23.5157988+03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-04-09T19:33:23.5157988+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-04-09T19:33:23.5187975+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-09T19:33:23.5187975+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-04-09T19:33:23.5187975+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-04-09T19:33:23.5187975+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-04-09T19:33:23.5197777+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-04-09T19:33:23.5207989+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-04-09T19:33:23.5237942+03:00:Thread #0: creating new test thread executor for Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-04-09T19:33:23.5247939+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-09T19:33:23.5257932+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-09T19:33:23.5257932+03:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-04-09T19:33:23.6415534+03:00:Thread#0: Test #4/0 is started on thread #0
+2019-04-09T19:33:23.7841117+03:00:Thread#0:T:-> Loading plugin C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-04-09T19:33:23.7961554+03:00:Thread#0:T:-> Using default config
+2019-04-09T19:33:23.8481426+03:00:Thread#0:B:Given I go to google

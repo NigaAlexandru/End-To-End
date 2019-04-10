@@ -1,0 +1,45 @@
+﻿2019-04-10T09:00:52.8906216+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-04-10T09:00:52.8906216+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.255 in Framework clr40 in x86 mode execution started
+2019-04-10T09:00:52.8906216+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-10T09:00:53.0394116+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-10T09:00:53.0394116+03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\niga3\source\repos\End-To-End-Testing\TestResults" (default)
+2019-04-10T09:00:53.0394116+03:00;VSTestExecutionThread;Info;Profile: Tests
+2019-04-10T09:00:53.0633961+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\niga3\source\repos\End-To-End-Testing\TestResults\Tests_Tests_2019-04-10T090053.log
+2019-04-10T09:00:53.0723925+03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-10T09:00:53.0803883+03:00;Thread#13;Info;Checking license
+2019-04-10T09:00:53.0973791+03:00;Thread#13;Info;Evaluation mode: test execution starts in 14 seconds... (this delay is removed in the registered version)
+2019-04-10T09:01:07.0990599+03:00;Thread#13;Info;Evaluation delay finished.
+2019-04-10T09:01:07.1190491+03:00;Thread#13;Info;License check completed
+2019-04-10T09:01:07.1190491+03:00;Thread#13;Info;starting test run
+2019-04-10T09:01:07.1692231+03:00;Thread#13;Info;Discovering target: Default
+2019-04-10T09:01:07.1702296+03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-10T09:01:07.7300475+03:00:Appdomain Disposed
+2019-04-10T09:01:07.7300475+03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-10T09:01:07.7310512+03:00:Test Suite Dump
+2019-04-10T09:01:07.7320482+03:00:#0: Tests/Tests - 
+2019-04-10T09:01:07.7320482+03:00:#1: Default - 
+2019-04-10T09:01:07.7320482+03:00:#2: Tests - 
+2019-04-10T09:01:07.7320482+03:00:#3: PurchaseFlows - 
+2019-04-10T09:01:07.7614409+03:00:#4: Add product to basker - TestAssembly:Tests/Feature:PurchaseFlows/Scenario:Add+product+to+basker
+2019-04-10T09:01:07.7614409+03:00:End: Test Suite Dump
+2019-04-10T09:01:07.7834449+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T09:01:07.7844446+03:00:Thread#:Scheduler: testitem #4 from normal test queue 
+2019-04-10T09:01:07.7844446+03:00:Thread#0:Scheduler: considering testitem #4 for thread 0
+2019-04-10T09:01:07.7874426+03:00:Thread#0:TestItem#4:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T09:01:07.7874426+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadSpecific:False
+2019-04-10T09:01:07.7874426+03:00:Thread#0:TestItem#4:runsOnOneOtherThreadUnspecific:False
+2019-04-10T09:01:07.7874426+03:00:Thread#0:Scheduler: using testitem #4 for thread 0
+2019-04-10T09:01:07.7884258+03:00:Thread#0:Scheduler: Test #4 is scheduled for thread
+2019-04-10T09:01:07.7894420+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-04-10T09:01:07.7914403+03:00:Thread #0: creating new test thread executor for Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-04-10T09:01:07.7924400+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-10T09:01:07.7934390+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-10T09:01:07.7934390+03:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-04-10T09:01:07.8851616+03:00:Thread#0: Test #4/0 is started on thread #0
+2019-04-10T09:01:08.0019488+03:00:Thread#0:T:-> Loading plugin C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-04-10T09:01:08.0099610+03:00:Thread#0:T:-> Using default config
+2019-04-10T09:01:08.0549354+03:00:Thread#0:B:Given The user accessed a product page
+2019-04-10T09:01:21.5884259+03:00:Thread#0:T:done: PurchaseFlowsSteps.GivenTheUserAccessedAProductPage() (13.4s)
+2019-04-10T09:01:23.3374190+03:00:Thread#0:B:When The user clicks on the buy button available
+2019-04-10T09:01:45.1127613+03:00:Thread#0:T:done: PurchaseFlowsSteps.WhenTheUserClicksOnTheBuyButtonAvailable() (21.8s)
+2019-04-10T09:01:47.2218346+03:00:Thread#0:B:Then The product is successfully added to basket

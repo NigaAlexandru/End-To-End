@@ -1,0 +1,159 @@
+﻿2019-04-10T10:52:05.4533316+03:00;VSTestExecutionThread;Info;SpecFlow+Runner execution started
+2019-04-10T10:52:05.4533316+03:00;VSTestExecutionThread;Info;SpecFlow+Runner 3.0.255 in Framework clr40 in x86 mode execution started
+2019-04-10T10:52:05.4533316+03:00;VSTestExecutionThread;Info;TestAdapter Location: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\TechTalk.SpecRun.VisualStudio.TestAdapter.dll
+2019-04-10T10:52:05.5822577+03:00;VSTestExecutionThread;Info;SpecRun: running tests in C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-10T10:52:05.5822577+03:00;VSTestExecutionThread;Info;Output folder configured to "C:\Users\niga3\source\repos\End-To-End-Testing\TestResults" (default)
+2019-04-10T10:52:05.5822577+03:00;VSTestExecutionThread;Info;Profile: Tests
+2019-04-10T10:52:05.6042469+03:00;VSTestExecutionThread;Info;Log file path: C:\Users\niga3\source\repos\End-To-End-Testing\TestResults\Tests_Tests_2019-04-10T105205.log
+2019-04-10T10:52:05.6122413+03:00;VSTestExecutionThread;Info;SpecFlow+Runner Evaluation Mode: Please purchase at http://www.specflow.org/plus to remove test execution delay.
+2019-04-10T10:52:05.6172571+03:00;Thread#13;Info;Checking license
+2019-04-10T10:52:05.6309171+03:00;Thread#13;Info;Evaluation mode: test execution starts in 12 seconds... (this delay is removed in the registered version)
+2019-04-10T10:52:17.6328097+03:00;Thread#13;Info;Evaluation delay finished.
+2019-04-10T10:52:17.6438076+03:00;Thread#13;Info;License check completed
+2019-04-10T10:52:17.6438076+03:00;Thread#13;Info;starting test run
+2019-04-10T10:52:17.6627940+03:00;Thread#13;Info;Discovering target: Default
+2019-04-10T10:52:17.6637926+03:00;Thread#13;Info;Discovering tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-10T10:52:18.0445721+03:00:Appdomain Disposed
+2019-04-10T10:52:18.0445721+03:00;Thread#13;Info;Discovered tests from assembly: C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\Tests.dll
+2019-04-10T10:52:18.0455721+03:00:Test Suite Dump
+2019-04-10T10:52:18.0485728+03:00:#0: Tests/Tests - 
+2019-04-10T10:52:18.0485728+03:00:#1: Default - 
+2019-04-10T10:52:18.0485728+03:00:#2: Tests - 
+2019-04-10T10:52:18.0485728+03:00:#7: PurchaseFlows - 
+2019-04-10T10:52:18.0835771+03:00:#8: Add product to basket - TestAssembly:Tests/Feature:PurchaseFlows/Scenario:Add+product+to+basket
+2019-04-10T10:52:18.0835771+03:00:#9: Delete product from basket - TestAssembly:Tests/Feature:PurchaseFlows/Scenario:Delete+product+from+basket
+2019-04-10T10:52:18.0835771+03:00:End: Test Suite Dump
+2019-04-10T10:52:18.1085585+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T10:52:18.1115343+03:00:Thread#:Scheduler: testitem #8 from normal test queue 
+2019-04-10T10:52:18.1115343+03:00:Thread#0:Scheduler: considering testitem #8 for thread 0
+2019-04-10T10:52:18.1165324+03:00:Thread#0:TestItem#8:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T10:52:18.1175317+03:00:Thread#0:TestItem#8:runsOnOneOtherThreadSpecific:False
+2019-04-10T10:52:18.1175317+03:00:Thread#0:TestItem#8:runsOnOneOtherThreadUnspecific:False
+2019-04-10T10:52:18.1175317+03:00:Thread#0:Scheduler: using testitem #8 for thread 0
+2019-04-10T10:52:18.1185310+03:00:Thread#0:Scheduler: Test #8 is scheduled for thread
+2019-04-10T10:52:18.1195304+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-04-10T10:52:18.1215294+03:00:Thread #0: creating new test thread executor for Tests, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null (target: Default)
+2019-04-10T10:52:18.1235281+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-10T10:52:18.1235281+03:00:Thread #0: Creating test assembly executor for execution model AppDomain
+2019-04-10T10:52:18.1245281+03:00:using TechTalk.SpecRun.Framework.Execution.InProcess.InProcAppDomainTestAssemblyExecutorHost to execute tests
+2019-04-10T10:52:18.1824942+03:00:Thread#0: Test #8/0 is started on thread #0
+2019-04-10T10:52:18.3364034+03:00:Thread#0:T:-> Loading plugin C:\Users\niga3\source\repos\End-To-End-Testing\Tests\bin\Debug\SpecRun.Runtime.SpecFlowPlugin.dll
+2019-04-10T10:52:18.3424005+03:00:Thread#0:T:-> Using default config
+2019-04-10T10:52:18.4113607+03:00:Thread#0:B:Given The user accessed a product page
+2019-04-10T10:52:26.2382338+03:00:Thread#0:T:done: PurchaseFlowsSteps.GivenTheUserAccessedAProductPage() (7.7s)
+2019-04-10T10:52:26.2402329+03:00:Thread#0:B:When The user clicks on the buy button available
+2019-04-10T10:52:27.4475412+03:00:Thread#0:T:done: PurchaseFlowsSteps.WhenTheUserClicksOnTheBuyButtonAvailable() (1.2s)
+2019-04-10T10:52:27.4495443+03:00:Thread#0:B:Then The product is successfully added to basket
+2019-04-10T10:52:47.6716857+03:00:Thread#0:T:done: PurchaseFlowsSteps.ThenTheProductIsSuccessfullyAddedToBasket() (20.2s)
+2019-04-10T10:52:47.6807072+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T10:52:47.6807072+03:00:Thread#:Scheduler: testitem #9 from normal test queue 
+2019-04-10T10:52:47.6807072+03:00:Thread#0:Scheduler: considering testitem #9 for thread 0
+2019-04-10T10:52:47.6807072+03:00:Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T10:52:47.6807072+03:00:Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+2019-04-10T10:52:47.6807072+03:00:Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+2019-04-10T10:52:47.6807072+03:00:Thread#0:Scheduler: using testitem #9 for thread 0
+2019-04-10T10:52:47.6807072+03:00:Thread#0:Scheduler: Test #9 is scheduled for thread
+2019-04-10T10:52:47.6807072+03:00:Thread#0:Scheduler: with testItemExecutionIndex 0
+2019-04-10T10:52:47.9692607+03:00:Thread#0: Test #8/0 is finished on thread #0 as Succeeded within 29.7857668 seconds
+2019-04-10T10:52:47.9722573+03:00:Thread#0: Test #9/0 is started on thread #0
+2019-04-10T10:52:47.9732567+03:00:Thread#0:B:Given The user added a product to basket
+2019-04-10T10:52:52.0634606+03:00:Thread#0:T:error: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:64002
+2019-04-10T10:52:52.0634606+03:00:Thread#0:T:   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+2019-04-10T10:52:52.0634606+03:00:Thread#0:T:   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+2019-04-10T10:52:52.0644319+03:00:Thread#0:T:   --- End of inner exception stack trace ---
+2019-04-10T10:52:52.0644319+03:00:Thread#0:T:   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+2019-04-10T10:52:52.0644319+03:00:Thread#0:T:   at System.Net.HttpWebRequest.GetRequestStream()
+2019-04-10T10:52:52.0644319+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+2019-04-10T10:52:52.0644319+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+2019-04-10T10:52:52.0644319+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+2019-04-10T10:52:52.0644319+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2019-04-10T10:52:52.0654309+03:00:Thread#0:B:And The user clicks on see basket button
+2019-04-10T10:52:52.0654309+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T10:52:52.0664306+03:00:Thread#0:B:When The user clicks on the remove button
+2019-04-10T10:52:52.0664306+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T10:52:52.0664306+03:00:Thread#0:B:Then The product is successfully removed from the basket
+2019-04-10T10:52:52.0664306+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T10:52:52.0994392+03:00:Thread#0:TestItem#9:Scheduler: reschedule tests for testitem #9
+2019-04-10T10:52:52.0994392+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T10:52:52.0994392+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #9
+2019-04-10T10:52:52.0994392+03:00:Thread#0:Scheduler: considering testitem #9 for thread 0
+2019-04-10T10:52:52.0994392+03:00:Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T10:52:52.0994392+03:00:Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+2019-04-10T10:52:52.0994392+03:00:Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+2019-04-10T10:52:52.0994392+03:00:Thread#0:Scheduler: using testitem #9 for thread 0
+2019-04-10T10:52:52.0994392+03:00:Thread#0:Scheduler: Test #9 is scheduled for thread
+2019-04-10T10:52:52.0994392+03:00:Thread#0:Scheduler: with testItemExecutionIndex 1
+2019-04-10T10:52:54.1105223+03:00:Thread#0: Test #9/0 is finished on thread #0 as Failed within 6.138265 seconds
+2019-04-10T10:52:54.1115216+03:00:Thread#0: Test #9/1 is started on thread #0
+2019-04-10T10:52:54.1115216+03:00:Thread#0:B:Given The user added a product to basket
+2019-04-10T10:52:56.1209464+03:00:Thread#0:T:error: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:64002
+2019-04-10T10:52:56.1209464+03:00:Thread#0:T:   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+2019-04-10T10:52:56.1219550+03:00:Thread#0:T:   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+2019-04-10T10:52:56.1219550+03:00:Thread#0:T:   --- End of inner exception stack trace ---
+2019-04-10T10:52:56.1229454+03:00:Thread#0:T:   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+2019-04-10T10:52:56.1229454+03:00:Thread#0:T:   at System.Net.HttpWebRequest.GetRequestStream()
+2019-04-10T10:52:56.1239516+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+2019-04-10T10:52:56.1239516+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+2019-04-10T10:52:56.1379407+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+2019-04-10T10:52:56.1379407+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2019-04-10T10:52:56.1389352+03:00:Thread#0:B:And The user clicks on see basket button
+2019-04-10T10:52:56.1389352+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T10:52:56.1399346+03:00:Thread#0:B:When The user clicks on the remove button
+2019-04-10T10:52:56.1399346+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T10:52:56.1409339+03:00:Thread#0:B:Then The product is successfully removed from the basket
+2019-04-10T10:52:56.1409339+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T10:52:56.1429333+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T10:52:56.1429333+03:00:Thread#:Scheduler: dequeuing a rescheduled testitem: #9
+2019-04-10T10:52:56.1429333+03:00:Thread#0:Scheduler: considering testitem #9 for thread 0
+2019-04-10T10:52:56.1429333+03:00:Thread#0:TestItem#9:testItemMatchesCurrentTestThread:UnSpecific
+2019-04-10T10:52:56.1429333+03:00:Thread#0:TestItem#9:runsOnOneOtherThreadSpecific:False
+2019-04-10T10:52:56.1429333+03:00:Thread#0:TestItem#9:runsOnOneOtherThreadUnspecific:False
+2019-04-10T10:52:56.1429333+03:00:Thread#0:Scheduler: using testitem #9 for thread 0
+2019-04-10T10:52:56.1429333+03:00:Thread#0:Scheduler: Test #9 is scheduled for thread
+2019-04-10T10:52:56.1429333+03:00:Thread#0:Scheduler: with testItemExecutionIndex 2
+2019-04-10T10:52:58.1508794+03:00:Thread#0: Test #9/1 is finished on thread #0 as Failed within 4.0393578 seconds
+2019-04-10T10:52:58.1508794+03:00:Thread#0: Test #9/2 is started on thread #0
+2019-04-10T10:52:58.1518507+03:00:Thread#0:B:Given The user added a product to basket
+2019-04-10T10:53:00.1633672+03:00:Thread#0:T:error: Unexpected error. System.Net.WebException: Unable to connect to the remote server ---> System.Net.Sockets.SocketException: No connection could be made because the target machine actively refused it 127.0.0.1:64002
+2019-04-10T10:53:00.1633672+03:00:Thread#0:T:   at System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+2019-04-10T10:53:00.1643669+03:00:Thread#0:T:   at System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+2019-04-10T10:53:00.1643669+03:00:Thread#0:T:   --- End of inner exception stack trace ---
+2019-04-10T10:53:00.1643669+03:00:Thread#0:T:   at System.Net.HttpWebRequest.GetRequestStream(TransportContext& context)
+2019-04-10T10:53:00.1653666+03:00:Thread#0:T:   at System.Net.HttpWebRequest.GetRequestStream()
+2019-04-10T10:53:00.1653666+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.MakeHttpRequest(HttpRequestInfo requestInfo)
+2019-04-10T10:53:00.1653666+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.HttpCommandExecutor.Execute(Command commandToExecute)
+2019-04-10T10:53:00.1653666+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.DriverServiceCommandExecutor.Execute(Command commandToExecute)
+2019-04-10T10:53:00.1663656+03:00:Thread#0:T:   at OpenQA.Selenium.Remote.RemoteWebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)
+2019-04-10T10:53:00.1663656+03:00:Thread#0:B:And The user clicks on see basket button
+2019-04-10T10:53:00.1673656+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T10:53:00.1673656+03:00:Thread#0:B:When The user clicks on the remove button
+2019-04-10T10:53:00.1673656+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T10:53:00.1683642+03:00:Thread#0:B:Then The product is successfully removed from the basket
+2019-04-10T10:53:00.1693646+03:00:Thread#0:T:skipped because of previous errors
+2019-04-10T10:53:00.1703626+03:00:Thread#0:Scheduler: get next test for thread 0
+2019-04-10T10:53:00.1713640+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-04-10T10:53:00.1713640+03:00:Thread#0:Scheduler: enumerator for thread is at end
+2019-04-10T10:53:00.1713640+03:00:Thread#0:Scheduler: No more tests for thread
+2019-04-10T10:53:06.1871314+03:00:Thread#0: Test #9/2 is finished on thread #0 as Failed within 8.036252 seconds
+2019-04-10T10:53:06.2296442+03:00:Appdomain Disposed
+2019-04-10T10:53:06.2326388+03:00:Trying to cancel thread
+2019-04-10T10:53:06.2326388+03:00:Thread cancelled
+2019-04-10T10:53:06.2436503+03:00:Thread#-1:Scheduler: get next test for thread -1
+2019-04-10T10:53:06.2436503+03:00:Thread#:Scheduler: at the end of normal test queue
+2019-04-10T10:53:06.2436503+03:00:Thread#-1:Scheduler: enumerator for thread is at end
+2019-04-10T10:53:06.2526269+03:00;Thread#13;Info;test run finished
+2019-04-10T10:53:06.2526269+03:00;Thread#13;Info;publishing test results
+2019-04-10T10:53:06.2916306+03:00;Thread#13;Info;test results published
+2019-04-10T10:53:06.2916306+03:00;Thread#13;Info;generating reports
+2019-04-10T10:53:06.4225300+03:00;Thread#13;Info;Starting external report generation process
+2019-04-10T10:53:08.2284272+03:00;Thread#13;Info;Successfully generated reports.
+2019-04-10T10:53:08.2294255+03:00;Thread#13;Info;Successfully generated reports
+2019-04-10T10:53:08.2374487+03:00:Total: 2 (test executions: 4)
+2019-04-10T10:53:08.2394443+03:00:Succeeded: 1
+2019-04-10T10:53:08.2394443+03:00:Ignored: 0
+2019-04-10T10:53:08.2404460+03:00:Pending: 0
+2019-04-10T10:53:08.2404460+03:00:Skipped: 0
+2019-04-10T10:53:08.2404460+03:00:Failed: 1
+2019-04-10T10:53:08.2524367+03:00;VSTestExecutionThread;Info;Adding attachments to VSTest
+2019-04-10T10:53:08.2534121+03:00;VSTestExecutionThread;Info;adding Test Execution Report 'C:\Users\niga3\source\repos\End-To-End-Testing\TestResults\TestRunReport.html'
+========== End of log file ==========
